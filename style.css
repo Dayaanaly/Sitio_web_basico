@@ -1,0 +1,54 @@
+body {  /* Se indica la parte en que se pondra ese estilo en este caso el cuerpo */
+    /* Opcion 1 */
+    background-color: rgb(16, 142, 164); /*Para un color nadamas*/
+    /* Opcion2 */
+    background: linear-gradient(0deg, rgba(24,132,134,1) 0%, rgba(205,255,245,1) 54%, rgba(31,89,201,0.8376033329120403) 100%);
+    /*Para varios colores y degradados cssgradiente.io*/
+
+    /* Para esocger el tipo de letra */
+    /* Opcion 1 */
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; */
+   
+    /* Opcion 2 */
+    /* Ir google.fonts- despues 'get embed code' */
+    font-family: "Josefin Sans", sans-serif; /* Te pone coma por si una no jala la siguiente opcion */
+    font-size: 16px;  /* Tamaño letra*/
+}
+/* Para modificar el tamaño de las imagenes de manera general si esta con "img" unicamente*/
+/*img { 
+     height: 600px; /*Alto de imagen en pixeles */
+    /* width:200px */ /* Se recomienda poner solo uno hancho o alto 
+    border-radius: 50px;
+}*/
+
+/* Para modificar imagenes de acuerdo a clases forma especifica */
+ .RostroSamus
+ { /* Se manda a traer la clase con un "." al inicio donde esta la imagen deseada a modificar*/
+    height: 600px; /* Altura 600 pixeles */
+    border-radius: 100px; /* Borde de la imagen */
+    /* opacity: 0.9; Opacidad */
+    border: double; /* Borde ejemplo: doble, solid, dasher*/
+    image-rendering: pixelated;
+    /* Para centrar las imagenes */
+    
+ }
+ .datillos 
+ {
+    /* Para cambiar esa seccion de color */
+    background-color: black; 
+    /* Para ponerle ahi una imagen */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmAeHDbJSOgvUNPSQcjU-KJe5YhiRNS11ctw&s);
+    font-size: 17px; /* Le indicamos que en esta division en especifico va ser de 17 pixeles */
+    color: antiquewhite; 
+    
+ }
+ /* Para acomodar  de posicion los subtitulos con etiqueta h1 (titulo) */
+ /* Si quieres personalizar un texto en especifico se tiene que dar la clase */
+ h1{
+     text-align: center;/* Para que se muestren en el centro */
+ }
+ /* Para centrar texto y imagenes en general */
+.biografia{
+    text-align: center;
+
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!--Etiqueta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Se vincula la hojita de CSS la cual le dara estilo -->
+    <link rel="stylesheet" href="style.css"> <!-- Para ligar hoja de estilos con la html  -->
+
+    <!-- Este link es para el tipo de letra mas fancy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+<!-- Otra forma no ideal para los estilos -->
+<!-- <style> 
+    body{ background-color: aqua;}
+</style>-->
+
+
+    <h1>Samus Zero</h1> <!--h1= titulo principal-->
+
+    <!-- Para indicar que inicia una division¿ -->
+    <div class="menu">
+        <nav> <!--Para crear un menu con secciones-->
+            <!-- Para que te mande hacia esa seccion -->
+            <a href="#inicio">Inicio</a> <!-- Se manda a llamar el id especifico con # -->
+            <a href="#momentos">Momentos epicos</a><!-- Se manda a llamar el id -->
+            <a href="#datos">Datos interesantes</a><!-- Se manda a llamar el id -->
+        </nav>
+    </div>
+<div class="biografia">
+    <!-- Etiquetas -->
+    <!-- <h2>Hola </h2>
+         <h3>Hola </h3>
+         <h4>Hola </h4>
+         <h5>Hola </h5>
+        <h6>Hola </h6> -->
+
+    <!-- Copiar direccion de la imagen = desde web -->
+    <!-- Se agrega class para indicar que es una clase y su nombre indicador -->
+    <!-- Se utiliza clase para que pueda utilizar para un gripo de elementos con las mismas especificaciones no es unica el id si -->
+    <img class="RostroSamus"
+        src="https://imgcdn.stablediffusionweb.com/2024/9/7/2686403f-1812-4235-90b4-cc40d9906994.jpg" alt="Samus zero">
+    <!-- Para colocar la ruta de la imagen se puede desde la web o desde la carpeta ya descargada -->
+
+    <!-- <p> para indicar que es un parrafo -->
+    <!-- Ejemplo: -->
+    <p id="inicio"> <!-- id es un identificador unico -->
+        Este sitio trata sobre el personaje jugable de Super Smash Bros. Para el correspondiente traje de Samus Aran en
+        Metroid, version Traje Zero </p>
+
+    <p> Se trata de Samus Aran usando una versión ligeramente modificada del traje zero, que incluye el paralizador como
+        arma principal y, a partir de Super Smash Bros. para Nintendo 3DS y Wii U, unas botas propulsoras. Samus sin su
+        armadura o casco ha aparecido de una forma u otra en todos los juegos de la saga Super Smash Bros., pero no fue
+        hasta Super Smash Bros. Brawl que se convirtió en un personaje jugable.</p>
+    <!-- Ajustar texto= alt +z  -->
+</div>
+    <!-- <img src="rutadeimagen" alt="descripcion"> Esta no lleva cierre y es para colocar una imagen -->
+    <!-- Imagen local= desde los descargados/ cambiar nombre -->
+    <!-- Se agrega class para indicar que es una clase y su nombre indicador -->
+    <img class="SamusCuerpo" src="Samus_zero_negro.jpg" alt=" Samus version zero">
+    <!-- Para colocar solo la dejas en la carpeta de trabajo y pones el nombre guardado -->
+
+    <!-- Para crear una Lista ordenada -->
+    <h2 id="momentos">Top 3 de momentos epicos en metroid </h2>
+    <ol> <!-- indica lista ordenada -->
+        <li> Encuentro con Mother Brain (Metroid) </li> <!--Lista items-->
+        <li> Sacrificio de Baby Metroid (Super Metroid)</li> <!--Lista items-->
+        <li> Descubrimiento de la identidad de Samus (Serie Metroid)</li>
+    </ol>
+    <!-- Referenciar otras paginas -->
+     <h2> Mira aqui mas recuerdos de Metroid</h2>
+     <!-- La ancla la segunda pagina de html hecha -->
+     <a href="Segunda_entrada.html" target="_blank"> Recuerdos metroid</a>
+
+    <!-- div= Para indicar divisiones y mandar a hacer funciones especificas a esta caja -->
+    <div class="datillos">
+        <!-- Para crear una Lista desordenada -->
+        <h2 id="datos"> Datos interesantes de Samus </h2>
+        <ul> <!--lista desordenada -->
+            <li> Generalmente usa su traje con armadura</li> <!--Lista items-->
+            <li> Es muy fuerte y habil </li> <!--Lista items-->
+            <li> Superviviente de la nave botella </li> <!--Lista items-->
+        </ul>
+    </div>
+    <h3>Historia completa</h3>
+    <a href="https://as.com/meristation/2021/10/05/videos/1633428873_657432.html" target="_blank">Click para conocer la
+        historia completa de Samus< </a> <!-- Etiqueta que es un ancla= link-->
+            <!-- target="_blank"= para que me abra en otra pestaña y no en esa misma -->
+            <p>Mi primer sitio web, hecho con amor por Dayana Pacheco en el bootcamp de technolochicas Pro </p>
+</body>
+
+</html
